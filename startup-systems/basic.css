@@ -1,0 +1,60 @@
+body, a {
+	margin-left: 10%;
+	background: #222;
+	color: #a0fff0;
+	font-family: 'raleway', helvetica;
+	font-weight: lighter;
+}
+
+h1 {
+	font-family: monospace;
+	font-weight: lighter;
+	display: inline;
+	position: relative;
+	margin-left: .25em;
+}
+
+a {
+	font-family: monospace;
+	font-weight: lighter;
+	display: inline;
+	position: relative;
+	margin-left: 0em;
+}
+
+p {
+	font-size: 1.5em;
+}
+
+b {
+	color: #50ffa0;
+}
+
+#netid {
+	position: static;
+	text-align: right;
+}
+
+/* animation courtesy of https://stackoverflow.com/questions/16344354/how-to-make-blinking-flashing-text-with-css3 */
+.terminal {
+  animation: blinker 1s linear infinite;
+	display: inline;
+	position: relative;
+	margin-left: -1.25em;
+}
+
+#prof-pic {
+	margin: auto;
+	-webkit-clip-path: inset(5px);
+	height: 15%;
+	width: auto;
+	float: right;
+	display: inline;
+	padding-left: 1em;
+}
+
+@keyframes blinker {
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
