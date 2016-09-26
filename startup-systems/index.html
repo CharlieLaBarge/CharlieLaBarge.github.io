@@ -14,13 +14,20 @@
 	  ga('send', 'pageview');
 
 	</script>
+	<script>
+		function ChangeTheThing() {
+			document.getElementById("startup-sys").innerHTML = "CS 5356!"
+			document.getElementById("startup-sys").style.color = "red"
+			document.getElementById("startup-sys").style.fontSize = "1.5em"
+		}
+	</script>
 </head>
 <body>
 	<h1 class="terminal">></h1><h1> Charlie LaBarge, CS '17, Cornell Tech</h1>
 <br>
 	<h1 class="terminal">></h1><h1> <a href="mailto:jfl95@cornell.edu">jfl95</a></h1>
 	<p>
-		Welcome to my personal page for Startup Systems!
+		Welcome to my personal page for <a id="startup-sys" onclick="ChangeTheThing()">Startup Systems!</a> <- Click this!! 
 	</p>
 	<img src="charlie_labarge.jpg" alt="picture of me" id="prof-pic"/>
 	<p>
